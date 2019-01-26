@@ -1,1 +1,85 @@
-@charset "utf-8"
+@charset "utf-8";
+
+.hidden
+{
+	display: none;
+}
+
+.container { width: 100%; 
+	/*display: inline-block; */
+}
+
+.container svg {
+ display: block;
+ width: 100%; 
+}
+
+#icon:hover
+{ /*fill: #FF0000;
+transition: all .1s ease;*/ 
+	padding: 20px 50px;  
+	overflow:hidden;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 125;
+   fill: red;
+  stroke: pink;
+  stroke-width: 1px;
+  stroke-dasharray: 100;
+  stroke-dashoffset: -100;
+  stroke-linecap: butt;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -ms-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+
+#row
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/*margin-left: 200px;*/
+}
+
+#row svg
+{
+	margin-left: 40px;
+	margin-right: 100px;
+}
+
+#row #second
+{
+	margin-top: 70px;
+	margin-right: 40px;
+}
+
+#row #ninth
+{
+	margin-right: 100px;
+	margin-top: 40px;
+}
+
+#row #ninth h2
+{
+	margin-left: 200px;
+}
+
+#row #eigth h2
+{
+	margin-left: 250px;
+}
+#row h2
+{
+	margin-left: 170px;
+}
+
+h1
+{
+	font-family: 'Major Mono Display', monospace;
+	font-size: 50px;
+	background: #FF0000;
+	padding-left: 1050px;
+	}
+
+
